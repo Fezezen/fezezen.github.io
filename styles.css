@@ -1,0 +1,179 @@
+
+body {
+	background-color: black;
+	background-image: url('Media/SanSebastian.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#page {
+	margin: 5% 15%;
+	background-color: #949ca8AA;
+	border-radius: 25px;
+}
+
+/* Figurehead */
+.figurehead {
+	background-color: #494e5466;
+	padding: 30px;
+	border-radius: 25px 25px 0px 0px;
+}
+
+#pfp {
+	width: 100px;
+	height: 100px;
+	display:block;
+	float: left;
+}
+
+.figurehead h2 {
+	font-family:"Lucida Console";
+	transform: translate(10px,0);
+	margin: 0;
+	padding: 0;
+}
+
+.figurehead p {
+	font-family:"Lucida Console";
+	transform: translate(10px,0)
+}
+
+/* Navbar */
+.homebar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #cc8a27;
+}
+
+.homebar li {
+	float: left;
+}
+
+.homebar li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family:"Lucida Console";
+}
+
+.homebar li a:hover {
+	background-color: #edb158;
+}
+
+.active-nav {
+  background-color: #c77d0e;
+}
+
+/* About me stuff */
+
+#aboutme {
+	padding: 20px 15%;
+}
+
+#aboutme h2 {
+	text-align: left;
+	font-family:"Arial";
+}
+
+#aboutme p {
+	line-height: 1.5;
+	font-family:"Arial";
+	font-size:0.95vw
+}
+
+#aboutme h3 {
+	font-family:"Lucida Console";
+}
+
+/* Skills */
+#languages {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#languages li {
+	float: left;
+}
+
+#languages img {
+	max-width: 100px;
+	max-height: 100px;
+	margin: 0px 10px;
+}
+
+.pLangText {
+	text-align: center;
+	font-family:"Courier New";
+	color: white;
+	transform: translate(0px,-10px);
+}
+
+/* Portfolio */
+
+.workTitle {
+	font-family:"Courier New";
+	text-align: center;
+}
+
+#game {
+	padding: 20px 15%;
+}
+
+#game p {
+	line-height: 1.5;
+	font-family:"Arial";
+	font-size:0.9vw;
+	font-weight: normal;
+}
+
+#game li {
+	line-height: 1.5;
+	font-family:"Arial";
+	font-size:0.9vw;
+	font-weight: normal;
+}
+
+.videocontainer {
+	width: 100%;
+	background-color: 00000000;
+}
+
+iframe {
+	display: block;
+	margin: 0px auto;
+	width: 75%;
+	text-align: center;
+	aspect-ratio: 16 / 9;
+}
+
+video {
+	display: block;
+	margin: 0px auto;
+	width: 75%;
+	text-align: center;
+	aspect-ratio: 16 / 9;
+}
+
+#videoTitle {
+	text-align: center;
+	font-family:"Courier New";
+}
+
+/* Contact */
+
+#contact {
+	padding: 20px 15%;
+}
+
+#contact  p {
+	line-height: 2;
+	font-family:"Arial";
+	font-size:0.95vw
+}
