@@ -122,7 +122,46 @@
 		</div>
 		
 		</article>
+	
+	<!-- ECS game engine -->
+		<hr width="75%">
+		<h1 class="workTitle">ECS game engine (C++/OpenGL/SDL)<h2>
 		
+		<article id="game">
+		<p>
+		At Humber College I made a game engine for the game engine 4 course, built completely from scratch without the template code given by the professor. Here I learned how to make an Entity-Component/Unity style game object class.
+		An Entity can have children entities, and each Entity can have various Components. Like a Transform, Mesh, Material, Shader, or Bone. This engine has a transform hierarchy, meaning a child entity inherits the transform of its parent. 
+		Using this I was able to load entire models/scenes from many different model formats like FBX, OBJ, and COLLADA using the <a href="https://github.com/assimp/assimp">ASSIMP library</a> and implement skinned meshing. It loads the armature
+		from the file, and you are able to translate, rotate and scale bones to affect the mesh they are skinned to. The Animator component allows you to play animations loaded from a file onto an armature.
+		<br><br>
+		
+		<h3 id="videoTitle">Demo of Mesh Skinning/Skeletal Animation</h3>
+		<div class="videocontainer">
+		<video width="100%" height="100%" aspect-ratio="16/9" controls> 
+		<source src="Media/animation.mp4">
+		Your browser does not support the video tag.
+		</video>
+		</div>
+		
+		<h3 id="videoTitle">Checker Board Scene</h3>
+		<div class="videocontainer">
+		<video width="100%" height="100%" aspect-ratio="16/9" controls> 
+		<source src="Media/ECS.mp4">
+		Your browser does not support the video tag.
+		</video>
+		</div>
+
+		<h3 id="videoTitle">Shadow Mapping</h3>
+		<div class="videocontainer">
+		<video width="100%" height="100%" aspect-ratio="16/9" controls> 
+		<source src="Media/ShadowMapping.mp4">
+		Your browser does not support the video tag.
+		</video>
+		</div>
+		
+		</p>
+		</article>	
+	
 	<!-- Hooked -->
 		<hr width="75%">
 		<h1 class="workTitle">Hooked (C++/SDL)<h2>
@@ -254,46 +293,7 @@
 		</div>
 		
 		</article>
-		
-	<!-- ECS game engine -->
-		<hr width="75%">
-		<h1 class="workTitle">ECS game engine (C++/OpenGL/SDL)<h2>
-		
-		<article id="game">
-		<p>
-		At Humber College I made a game engine for the game engine 4 course, built completely from scratch without the template code given by the professor. Here I learned how to make an Entity-Component/Unity style game object class.
-		An Entity can have children entities, and each Entity can have various Components. Like a Transform, Mesh, Material, Shader, or Bone. This engine has a transform hierarchy, meaning a child entity inherits the transform of its parent. 
-		Using this I was able to load entire models/scenes from many different model formats like FBX, OBJ, and COLLADA using the <a href="https://github.com/assimp/assimp">ASSIMP library</a> and implement skinned meshing. It loads the armature
-		from the file, and you are able to translate, rotate and scale bones to affect the mesh they are skinned to.
-		<br><br>
-		
-		<h3 id="videoTitle">Demo of Mesh Skinning/Skeletal Animation</h3>
-		<div class="videocontainer">
-		<video width="100%" height="100%" aspect-ratio="16/9" controls> 
-		<source src="Media/skeletal.mp4">
-		Your browser does not support the video tag.
-		</video>
-		</div>
-		
-		<h3 id="videoTitle">Checker Board Scene</h3>
-		<div class="videocontainer">
-		<video width="100%" height="100%" aspect-ratio="16/9" controls> 
-		<source src="Media/ECS.mp4">
-		Your browser does not support the video tag.
-		</video>
-		</div>
-
-		<h3 id="videoTitle">Shadow Mapping</h3>
-		<div class="videocontainer">
-		<video width="100%" height="100%" aspect-ratio="16/9" controls> 
-		<source src="Media/ShadowMapping.mp4">
-		Your browser does not support the video tag.
-		</video>
-		</div>
-		
-		</p>
-		</article>
-		
+	
 	<!-- Defender Clone (C/SDL) -->
 		<hr width="75%">
 		<h1 class="workTitle">Defender Clone (C/SDL)<h2>
